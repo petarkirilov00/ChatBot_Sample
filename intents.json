@@ -1,0 +1,89 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "hi there", "Hello?", "hi can you help me?", "hey again", "hey man", "hey there",
+           "hello? anyone?", "hi again", "hello ", "hi there, can you help me?", "hello, good day",
+           "Is anyone there?","Hello", "hello", "Good day", "hi fam",
+           "Hey", "Good morning", "Good afternoon", "good evening", "yo", "You there?", "Hey there", "hey bot", "hey dude",
+           "yo dude", "yo man", "Hey man",  "Are you there?"],
+         "responses": ["Hello, how can I help you?", "Good to see you again", "Hello there", "Welcome again"],
+         "context": [""]
+        },
+         {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "bye bye", "later", "I will see you later",
+           "see you later then", "Goodbye", "Nice chatting to you, bye", "Till next time", "Later",
+           "Ciao", "See you", "Bye bye", "Farewell", "Good talk", "Good chat", "Peace out", "talk to you later",
+           "ok bye", "alright, see you later", "Ok bye bye", "Alright bye", "bye botface", "see you later bot"],
+         "responses": ["Have a nice day", "Bye! Come back again soon.", "Have a good one"],
+         "context": [""]
+        },
+          {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "thanks", "many thanks", "thank you again", "thanks",
+           "thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me", "Thanks a lot!",
+           "Thank you so much", "I appreciate your help, thanks", "Many thanks", "Grateful for your help",
+           "Cool that's helpful", "Much appreciated", "I appreciate your help", "Ok, thanks!",
+           "Alright, much appreciated", "cool, thanks!", "thank you very much!", "Thanks!",
+           "That's really helpful, much appreciated", "you are the best, thanks", "Alright, thanks a lot"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure", "No problem!", "Cheers", "It was my pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [""],
+         "responses": ["Sorry, I can't understand you", "Please give me more info", "Not sure if I understand you",
+           "I didn't get that\nCan you repeat?", "I didn't understand what you've said\nCan you repeat that"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How can help me?", "What you can do?", "What help do you provide?", "How you can be helpful?",
+           "What support is offered?", "What are your services?", "Tell me stuff", "Why do you exist?",
+           "What is your purpose?", "Help me, what can you do?", "How can you help me?", "What do you do?",
+           "What is it that you do here?", "What is the meaning of your existence?"],
+         "responses": [""],
+         "context": [""]
+        },
+        {"tag": "name",
+         "patterns": ["What is your name", "How should I call you" , "Who are you", "Whats your name", "Name"],
+         "responses": ["You can call me Neural", "I'm Neural, nice to meet you"],
+         "context": [""]
+        },
+        {"tag": "mood",
+         "patterns": ["How are you today", "How is it going" , "Whats up", "You good today", "How are you"],
+         "responses": ["I'm pretty good today\nAnd you?", "I'm fine thanks.\nWhat about you?", "I'm good.\nYou?"],
+         "context": [""]
+        },
+        {"tag": "age",
+         "patterns": ["What is your age", "How old are you" , "Age", "How old", "Do you have an age"],
+         "responses": ["I'm a computer program\nSeriously you are asking me this?"],
+         "context": [""]
+        },
+        {"tag": "moodh",
+         "patterns": ["I'm good too", "Good, thanks", "Good", "Fine thanks", "I'm happy"],
+         "responses": ["Happy to hear that", "Nice to hear that", "Nice", "Amazing"],
+         "context": [""]
+        },
+        {"tag": "moods",
+         "patterns": ["Not in a mood", "I'm sad today" , "Not really good", "I doesnt feel well today", "I'm tired"],
+         "responses": ["I'm sad to hear that", "Ooh, one of those days", "That's sad"],
+         "context": [""]
+        },
+        {"tag": "namea",
+         "patterns": ["Is you name Neural", "Are you Neural", "Neural"],
+         "responses": ["Yes, I'm Neural", "I'm Neural", "It's me", "Yes, that's right"],
+         "context": [""]
+        },
+        {"tag": "info",
+         "patterns": ["Tell me about yourself", "Tell me about you", "Tell me something about you"],
+         "responses": ["Well I'm Neural, created from Petar Kirilov.\nHe is from Sofia, Bulgaria at the age of 23.\nI know he used Python to create me"],
+         "context": [""]
+        },
+        {"tag": "from",
+         "patterns": ["Where are you from?", "You from?", "From where are you?", "You from where?"],
+         "responses": ["I'm from everywhere\nWhat about you?"],
+         "context": [""]
+        },
+        {"tag": "fromq",
+         "patterns": ["I'm from ", "From ", "I live in "],
+         "responses": ["Nice", "Wow, amazing", "I've heard only good stuff about it", "Amazing"],
+         "context": [""]
+        }
+]
+}
